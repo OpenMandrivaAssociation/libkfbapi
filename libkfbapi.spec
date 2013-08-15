@@ -1,7 +1,7 @@
 Summary:	Library to access various Facebook services via their public API
 Name:		libkfbapi
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://projects.kde.org/projects/extragear/libs/%{name}
@@ -29,7 +29,7 @@ Translations for libkfbapi.
 #----------------------------------------------------------------------------
 
 %define major 1
-%define libname %mklibname kgapi %{major}
+%define libname %mklibname kfbapi %{major}
 
 %package -n %{libname}
 Summary:	Runtime library for libkfbapi
@@ -44,7 +44,7 @@ Library to access various Facebook services via their public API.
 
 #----------------------------------------------------------------------------
 
-%define devname %mklibname -d kgapi
+%define devname %mklibname -d kfbapi
 
 %package -n %{devname}
 Summary:	Development files for libkfbapi
